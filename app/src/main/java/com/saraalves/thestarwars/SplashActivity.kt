@@ -16,7 +16,6 @@ class SplashActivity : AppCompatActivity() {
         supportRequestWindowFeature(FEATURE_NO_TITLE)
         setContentView(binding.root)
         window.statusBarColor = ContextCompat.getColor(this, R.color.gray_01)
-//        animaImagem()
     }
 
     fun animaImagem() {

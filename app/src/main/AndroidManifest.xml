@@ -13,13 +13,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TheStarWars">
         <activity
-            android:name=".SplashActivity"
-            android:exported="true">
+            android:name=".presenter.MainActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:exported="false">
         </activity>
     </application>
 
